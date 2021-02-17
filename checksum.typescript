@@ -1,0 +1,42 @@
+Script started on Tue 16 Feb 2021 07:42:34 PM PST
+]0;aj521792@ssh: ~/comp122/checksum.c[01;32maj521792@ssh[00m:[01;34m~/comp122/checksum.c[00m$ cat 156.txt | int2byte | checksum[C[1@s[C[C[C[C[C[1@s
+45 
+2 
+16 
+5 
+12 
+156 
+55 
+17 
+192 
+10 
+Stored Checksum: 156, Computed Checksum: 156
+]0;aj521792@ssh: ~/comp122/checksum.c[01;32maj521792@ssh[00m:[01;34m~/comp122/checksum.c[00m$ cat 156.txt | ints2bytes | checksum[C[C[C[1P[1P[1P[1@2[1@2[1@9
+45 
+2 
+16 
+5 
+12 
+229 
+55 
+17 
+192 
+34 
+Stored Checksum: 229, Computed Checksum: 132
+Error Detected!
+]0;aj521792@ssh: ~/comp122/checksum.c[01;32maj521792@ssh[00m:[01;34m~/comp122/checksum.c[00m$ cat 229.txt | ints2bytes | checksum[C[C[C[1P[1P[1P[1@7[1P[1@8[1@1
+145 
+24 
+16 
+54 
+1 
+81 
+225 
+174 
+12 
+33 
+Stored Checksum: 81, Computed Checksum: 81
+]0;aj521792@ssh: ~/comp122/checksum.c[01;32maj521792@ssh[00m:[01;34m~/comp122/checksum.c[00m$ exit
+exit
+
+Script done on Tue 16 Feb 2021 07:42:57 PM PST
